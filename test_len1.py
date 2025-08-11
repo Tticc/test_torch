@@ -45,7 +45,7 @@ for epoch in range(500):  # 训练 100 轮
 
 
 
-print("打印所有参数")
+print("打印所有参数：")
 # 打印所有参数
 for name, param in model.named_parameters():
     print(f"{name}: {param.data}")
